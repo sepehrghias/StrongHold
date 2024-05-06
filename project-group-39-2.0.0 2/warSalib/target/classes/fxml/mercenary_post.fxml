@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MercenaryPost">
+   <children>
+      <ImageView fitHeight="94.0" fitWidth="116.0" layoutX="40.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/soldierIcon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="246.0" layoutY="66.0" prefHeight="24.0" prefWidth="170.0" text="MERCENARY POST">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="46.0" layoutY="187.0" mnemonicParsing="false" onMouseClicked="#quit" prefHeight="26.0" prefWidth="83.0" text="quit" />
+      <Button layoutX="46.0" layoutY="273.0" mnemonicParsing="false" onMouseClicked="#create" prefWidth="83.0" text="create" />
+      <ScrollPane layoutX="219.0" layoutY="187.0" prefHeight="106.0" prefWidth="323.0">
+         <content>
+            <HBox fx:id="soldierSelection" prefHeight="113.0" prefWidth="305.0" spacing="20.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

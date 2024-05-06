@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:id="profilePane"
+      fx:controller="view.profileView"
+      prefHeight="400.0" prefWidth="600.0">
+    <Label text="Username" fx:id="profileUsername" layoutX="30" layoutY="30"    />
+    <Label text="Password" fx:id="profilePassword" layoutX="30" layoutY="90" />
+    <Label text="nickname" fx:id="profileNickname" layoutX="30" layoutY="150" />
+    <Label text="Email" fx:id="profileEmail" layoutX="30" layoutY="210" />
+    <Label text="Slogan" fx:id="profileSlogan" layoutX="30" layoutY="270" />
+    <Button text="changeUsername" onMouseClicked="#changeUsername"  layoutX="220" layoutY="30"  />
+    <Button text="changePassword" onMouseClicked="#changePassword" layoutX="220" layoutY="90" />
+    <Button text="changeNickname" onMouseClicked="#changeNickname" layoutX="220"  layoutY="150" />
+    <Button text="changeEmail" onMouseClicked="#changeEmail"   layoutX="220" layoutY="210"   />
+    <Button text="changeSloan" onMouseClicked="#changeSlogan"  layoutX="220" layoutY="270"  />
+    <Button text="ScoreBoard" layoutX="220"  layoutY="500"   onMouseClicked="#goScoreBoard" />
+    <Button text="Choose Avatar photo" layoutX="220" layoutY="700" onMouseClicked="#chooseFromFile" />
+    <ImageView fx:id="myImage"  layoutX="90" layoutY="540" fitWidth="90" fitHeight="90" onDragOver="#onDragCheck" onDragDropped="#changeImageWithDrag"  />
+    <Button text="back" layoutX="400" layoutY="600" onMouseClicked="#backToMainManu" />
+</Pane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane xmlns="http://javafx.com/javafx"  fx:id="mainPane"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="view.MainView"
+            prefHeight="400.0" prefWidth="600.0">
+    <Button text="Start New Game" layoutX="20" layoutY="20"  onMouseClicked="#StartNewGame"  />
+    <Button text="logout"  layoutX="20"  layoutY="120"  onMouseClicked="#logout"/>
+    <Button text="Profile Menu"  layoutX="20"  layoutY="220"  onMouseClicked="#goProfileMenu"  />
+</Pane>

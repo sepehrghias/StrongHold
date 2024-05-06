@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="view.securityView"
+      prefHeight="300.0" prefWidth="450.0">
+            <Text text="Pick your security question: " layoutX="60" layoutY="50" />
+            <Text text="1. What is my father’s name?" fx:id="firstQ" layoutX="60" layoutY="150" />
+            <Text text="2. What was my first pet’s name?"  fx:id="secondQ" layoutX="60" layoutY="250" />
+            <Text text="3. What is my mother’s last name?" fx:id="thirdQ" layoutX="60" layoutY="350" />
+            <CheckBox text="choose" layoutY="133.6"  onMouseClicked="#first"/>
+            <CheckBox text="choose" layoutY="233.6"   onMouseClicked="#second" />
+            <CheckBox text="choose" layoutY="333.6" onMouseClicked="#third" />
+            <TextField promptText="Captcha" layoutX="60" layoutY="500" fx:id="captchaAnswer"  />
+            <Button  text="submit" layoutX="60" layoutY="620" prefWidth="80" prefHeight="30" onMouseClicked="#submit" />
+
+</Pane>

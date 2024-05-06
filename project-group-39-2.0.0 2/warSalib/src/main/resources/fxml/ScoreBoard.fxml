@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx" fx:id="scoreBoardPane"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="view.scoreBoardView"
+            prefHeight="400.0" prefWidth="600.0">
+    <Label text="Rank:" layoutX="20" layoutY="20" />
+    <Label text="Score" layoutX="20"  layoutY="40" />
+
+</GridPane>

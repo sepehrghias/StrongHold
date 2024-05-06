@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MarketMenu">
+   <children>
+      <Label layoutX="257.0" layoutY="43.0" prefHeight="17.0" prefWidth="210.0" text="MARKET">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="85.0" fitWidth="74.0" layoutX="31.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/shop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="74.0" layoutX="467.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="39.0" layoutY="166.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="58.0" text="quit" onMouseClicked="#quit"/>
+      <ImageView fitHeight="63.0" fitWidth="86.0" layoutX="467.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#archer">
+         <image>
+            <Image url="@../images/arcger.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="86.0" layoutX="319.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#hop">
+         <image>
+            <Image url="@../images/hop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="86.0" layoutX="483.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#armour">
+         <image>
+            <Image url="@../images/armour.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="86.0" layoutX="319.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#iron">
+         <image>
+            <Image url="@../images/iron.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="74.0" layoutX="467.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#stone">
+         <image>
+            <Image url="@../images/stone2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="74.0" layoutX="329.0" layoutY="298.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#spear">
+         <image>
+            <Image url="@../images/spearIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="86.0" layoutX="194.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#wood">
+         <image>
+            <Image url="@../images/wood.png" />
+         </image>
+      </ImageView>
+      <Button text="Go to Trade Menu" onMouseClicked="#goTradeView" />
+   </children>
+</AnchorPane>

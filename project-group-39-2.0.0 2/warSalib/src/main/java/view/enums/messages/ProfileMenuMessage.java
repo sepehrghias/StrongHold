@@ -1,0 +1,15 @@
+package view.enums.messages;
+
+public enum ProfileMenuMessage {
+    USERNAME_EXISTS,
+    INVALID_USERNAME_FORMAT,
+    INVALID_NICKNAME_FORMAT,
+    WRONG_PASSWORD,
+    SAME_PASSWORD,
+    INVALID_PASSWORD_FORMAT,
+    WEAK_PASSWORD,
+    EMAIL_EXISTS,
+    INVALID_EMAIL_FORMAT,
+    EMPTY_SLOGAN,
+    SUCCESS;
+}

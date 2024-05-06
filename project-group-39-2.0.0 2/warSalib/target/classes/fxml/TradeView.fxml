@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane xmlns="http://javafx.com/javafx" fx:id="tradePane"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="view.tradeView"
+            prefHeight="400.0" prefWidth="600.0">
+    <Button text="Create New Trade" onMouseClicked="#createNewTrade" layoutX="30" layoutY="50" />
+
+    <Button text="Show sends Trade History" onMouseClicked="#showSendsHistory" layoutX="30" layoutY="150" />
+
+    <Button text="Show gets Trade History"  onMouseClicked="#showGetsHistory" layoutX="30" layoutY="250" />
+
+
+</Pane>

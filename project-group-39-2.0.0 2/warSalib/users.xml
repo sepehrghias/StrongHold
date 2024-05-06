@@ -1,0 +1,32 @@
+<list>
+  <model.user.User>
+    <username>ali</username>
+    <nickname>dfd</nickname>
+    <password>Abcd123^</password>
+    <email>aaa123@gmail.com</email>
+    <rank>0</rank>
+    <score>0</score>
+    <securityQuestionAnswer>df</securityQuestionAnswer>
+    <securityQuestion/>
+  </model.user.User>
+  <model.user.User>
+    <username>dgfg</username>
+    <nickname>dgd</nickname>
+    <password>Abcd123^</password>
+    <email>akfkd@gmail.com</email>
+    <rank>0</rank>
+    <score>0</score>
+    <securityQuestionAnswer>ddg</securityQuestionAnswer>
+    <securityQuestion/>
+  </model.user.User>
+  <model.user.User>
+    <username>dgfg</username>
+    <nickname>dgd</nickname>
+    <password>Abcd123^</password>
+    <email>akfgfgkd@gmail.com</email>
+    <rank>0</rank>
+    <score>0</score>
+    <securityQuestionAnswer>fg</securityQuestionAnswer>
+    <securityQuestion/>
+  </model.user.User>
+</list>
